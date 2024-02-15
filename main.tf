@@ -2,7 +2,7 @@
 
 provider "google" {
   credentials = file("amiable-evening-413709-acef4404927f.json")
-  project     = "prwatech00J"
+  project     = "amiable-evening-413709"
   region      = "us"
 }
 
