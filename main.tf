@@ -7,7 +7,7 @@ provider "google" {
 }
 
 resource "google_storage_bucket" "my_bucket" {
-  name          = "tf-bucket"
+  name          = "terraform-bucket"
   location      = "US"
   force_destroy = true
 
