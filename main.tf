@@ -6,8 +6,8 @@ provider "google" {
   region      = "us"
 }
 
-resource "google_storage_bucket" "gcp_terraform_bucket" {
-  name          = "gcp-terraform-bucket"
+resource "google_storage_bucket" "my_bucket" {
+  name          = "gcp-tf-bkt001"
   location      = "US"
   force_destroy = true
 
